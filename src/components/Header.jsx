@@ -1,11 +1,14 @@
 import React from 'react'
-import banner1 from '../images/banner1.jpeg'
-import banner2 from '../images/banner2.jpeg'
-import banner3 from '../images/banner3.jpeg'
-import banner4 from '../images/banner4.webp'
-import banner5 from '../images/banner5.webp'
+import banner1 from '../images/Banner1.jpg'
+import banner2 from '../images/Banner2.jpg'
+import banner3 from '../images/Banner3.jpg'
+import banner4 from '../images/Banner__4.webp'
+import banner5 from '../images/Banner5.jpg'
+import banner6 from '../images/Banner6.jpg'
+import banner7 from '../images/Banner7.jpg'
+
 const Header = () => {
-    const images=[banner1,banner2,banner3,banner4,banner5]
+    const images=[banner1,banner2,banner3,banner4,banner5,banner6,banner7]
   return (
     <div className='w-full h-[100vh]'>
      <div className='relative w-full h-full'>

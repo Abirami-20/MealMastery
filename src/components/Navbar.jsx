@@ -12,8 +12,8 @@ const Navbar = () => {
                 Meal <span>Mastery</span>
             </a>
             <ul className='hidden md:flex text-white gap-6'>
-                <li><a href='#'/>Home</li>
-                <li><a href='/#recipes'/>Explore</li>
+                <li><a href='/'/>Home</li>
+                <li><a href='#recipes'/>Explore</li>
                 <li><a href='/favorites'/>Favorites</li>
             </ul>
            
@@ -24,7 +24,7 @@ const Navbar = () => {
         </nav>
         <div className={`${open ? "flex" : "hidden"} bg-black flex-col w-full px-4 py-8 text-white gap-6 text-[14px]`}>
                 <a href="/">Home</a>
-                <a href="/#recipes">Recipes</a>
+                <a href="#recipes">Recipes</a>
                 <a href="/">Favorites</a>
             </div>
     </header>
