@@ -13,21 +13,21 @@ const Footer = () => {
                     <p>SOCIAL MEDIA</p>
                     <div className="flex mt-4 gap-3">
                     <a
-                            href='#'
+                            href='https://github.com/Abirami-20/MealMastery'
                             className='bg-green-600 p-1.5 rounded-sm text-white hover:text-gray-500 hover:scale-110'
                         >
                             <FaGithub size={18} />
                         </a>
 
                         <a
-                            href='#'
+                            href='https://www.instagram.com/abiramiravikumar6/'
                             className='bg-pink-600 p-1.5 rounded-sm text-white hover:text-gray-500 hover:scale-110'
                         >
                             <FaInstagram size={18} />
                         </a>
                        
                         <a
-                            href='#'
+                            href='divyaabi047@gmail.com'
                             className='bg-red-600 p-1.5 rounded-sm text-white hover:scale-110'
                         >
                             <FaMailBulk size={18} />
